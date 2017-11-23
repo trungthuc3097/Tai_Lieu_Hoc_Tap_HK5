@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="FisrtMaster.master.cs" Inherits="FisrtMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="firstMaster.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="main">
+            <div id="banner">
+                <p>banner</p>
+            </div>
+            <div id="menu">
+                <p>menu</p>
+            </div>
+            <div id="container-center">
+                <div id="sider-fleft">
+                    <p>left</p>
+                </div>
+                <div id="content">
+                    <asp:ContentPlaceHolder id="holderContentHome" runat="server">
+                
+                    </asp:ContentPlaceHolder>
+                </div>
+                <div id="sider-right">
+                    <p> right</p>            
+                </div>
+            </div>
+            <div id="footer">
+                <p>footer</p>                
+            </div>
+        </div>
+    </form>
+</body>
+</html>

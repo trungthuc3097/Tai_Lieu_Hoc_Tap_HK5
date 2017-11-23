@@ -1,0 +1,63 @@
+﻿*
+{
+    margin:0px;
+    padding:0xp;
+}
+#main
+{
+    margin:0px 10px; }
+p
+{
+    text-align:center;
+    }
+body 
+{
+    font-family:Sans-Serif;
+    font-size:14px;
+}
+#banner
+{
+    height:110px;
+    width:100%;
+    background-color:Green;  
+}
+#menu
+{
+    height:80px;
+    width:100%; 
+    background-color:Blue; 
+    margin:5px 0px;
+    }
+#sider-fleft
+{
+    float:left;
+    width:19%;
+    min-height:500px;
+    background-color:Orange; 
+    margin:0px 6px;
+    margin-bottom:5px;
+    }
+#content
+{
+    float:left;
+    width:60%;
+    min-height:500px;
+    background-color:White; 
+    color:Black;
+    margin-bottom:5px;
+    }
+#sider-right
+{
+    float:right;
+    width:19%;
+    min-height:500px;
+    background-color:Orange;  
+    margin-bottom:5px;
+    margin:0px 6px;
+    }
+#footer
+{
+    height:400px;   
+    clear:both;
+    background-color:Green;
+    }
